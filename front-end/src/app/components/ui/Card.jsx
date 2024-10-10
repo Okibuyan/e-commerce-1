@@ -8,7 +8,7 @@ export const Card = ({
   selectedProduct,
   setProducts,
 }) => {
-  const { productName, category, price, id } = product;
+  // const { productName, category, price, id } = product;
   //   const handleDeleteClick = () => {
   //     onDelete(id);
   //   };
@@ -50,9 +50,9 @@ export const Card = ({
         />
       </figure>
       <div className="card-body">
-        <p>Барааны нэр:{productName}</p>
-        <p>Барааны ангилал:{category}</p>
-        <p>Үнэ: {price}</p>
+        <p>Барааны нэр:</p>
+        <p>Барааны ангилал:</p>
+        <p>Үнэ: </p>
         <div className="card-actions justify-end">
           {/* <DeleteButton onClick={handleDeleteClick} /> */}
           <AddToCard
