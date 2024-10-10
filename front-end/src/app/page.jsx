@@ -76,7 +76,7 @@ export default function Home() {
                 </form>
                 <h3 className="font-bold text-lg">Items in your cart</h3>
                 <div className="py-4">
-                  <p>Quantity</p>
+                  <p>Quantities</p>
                 </div>{" "}
                 <div className="flex justify-center">
                   <button className="btn">Proceed to checkout</button>
